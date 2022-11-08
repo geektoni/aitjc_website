@@ -1,0 +1,140 @@
+NicolaD:
+    id: anonyGAN
+    name: "Graph-based Generative Face Anonymization with Pose Preservation"
+    presenter: "Nicola Dall’Asen"
+    date: "June 24, 2022"
+    website: "https://fodark.xyz/"
+    email: "nicola.dallasen@unitn.it"
+    abstract: "In the era of deep learning, the availability of large-scale data has undoubtedly brought technological advances. However, the same fact has also fostered the growing concern regarding privacy issues. Visual privacy preservation is mainly achieved via video redaction methods by obfuscating the personally identifiable information (PII) of a data subject, whose face is often the most identity-informative part.
+               We propose AnonyGAN, a GAN-based solution for face anonymization which replaces the visual information corresponding to a source identity with a condition identity provided as any single image.
+               To maintain the geometric attributes of the source face, i.e., the facial pose and expression, and to promote a more natural face generation, we propose to exploit a Bipartite Graph to explicitly model the relations between the facial landmarks of the source identity and the ones of the condition identity through a deep model."
+    keywords: "deep learning, gan, face anonymization"
+    photo: "sml_journal_club/nicola_dallasen.jpg"
+    video: "https://youtu.be/A3gHSafBOW0"
+    slides: "slide_journal_club/Talk_10_Graph-based_Generative_Face_Anonymization_with_Pose_Preservation.pdf"
+    affil: "University of Pisa and University of Trento"
+
+AndreaB:
+    id: cincer
+    name: "Interactive Label Cleaning with Example-based Explanations"
+    presenter: "Andrea Bontempelli"
+    date: "June 10, 2022"
+    email: "andrea.bontempelli@unitn.it"
+    abstract: "We tackle sequential learning under label noise in applications where a human supervisor can be queried to relabel suspicious examples. Existing approaches only relabel incoming examples that look suspicious to the model.  As a consequence, those mislabeled examples that elude (or don't undergo) this cleaning step end up tainting the training data and the model with no further chance of being cleaned. We propose CINCER, a novel approach that cleans both new and past data by identifying pairs of mutually incompatible examples. Whenever it detects a suspicious example, CINCER identifies a counter-example in the training set that -according to the model- is maximally incompatible with the suspicious example, and asks the annotator to relabel either or both examples, resolving this possible inconsistency. The counter-examples are chosen to be maximally incompatible, so to serve as explanations of the model's suspicion, and highly influential, so to convey as much information as possible if relabeled.  CINCER achieves this by leveraging an efficient and robust approximation of influence functions based on the Fisher information matrix (FIM). Our extensive empirical evaluation shows that clarifying the reasons behind the model's suspicions by cleaning the counter-examples helps in acquiring substantially better data and models, especially when paired with our FIM approximation."
+    keywords: "sequential learning, label noise, human supervisor"
+    photo: "sml_journal_club/andrea_bontempelli.jpg"
+    video: "https://youtu.be/kSJ1R0zulj4"
+    slides: "slide_journal_club/Talk_9_Interactive_Label_Cleaning_with_Example-based_Explanations.pdf"
+    affil: "University of Trento"
+
+Mahed:
+    id: convAI
+    name: "Can We Use Pretrained Language Models for Personal Response Generation?"
+    presenter: "Seyed Mahed Mousavi"
+    date: "May 27, 2022"
+    website: "https://www.linkedin.com/in/mahedmousavi/"
+    gscholar: "https://scholar.google.it/citations?user=OYqE3uAAAAAJ&hl=en"
+    email: "mahed.mousavi@unitn.it"
+    abstract: "There is a growing research interest in developing personalized conversational artificial intelligence (ConvAI). Such systems should understand the user inputs which encompass personal life-events, emotions, and thoughts; and generate an appropriate response in a coherent manner from the opening of the conversation through successive turns until its closure. While deep end-to-end models have been deployed for response generation in task-based and chit-chat settings, such models are known to suffer from inappropriate and generic responses. In this talk, we will discuss the concepts and approaches to develop dialogue systems, the challenges to personalize such systems, and have an insight into an on-going research on grounded Personal Dialogue Agents."
+    keywords: "end-to-end Dialogue Model, Natural Language Understanding, Pre-Trained Language Model, Grounded Response Generation"
+    photo: "sml_journal_club/mahed.jpeg"
+    video: "https://youtu.be/vgtk48usnR8"
+    slides: "slide_journal_club/Talk_8_Personalized_Response_Generation.pdf"
+    affil: "University of Trento"
+
+Burcu:
+    id: tw_rhcs
+    name: "Towards Reliable Hybrid Human-Machine Classification Services"
+    presenter: "Burcu Sayin Günel"
+    date: "May 13, 2022"
+    email: "burcu.sayin@unitn.it"
+    abstract: "Abstract: Hybrid classification services are online services that combine machine learning (ML) and humans - either crowd workers or experts - to achieve a classification objective, from relatively simple ones such as deriving the sentiment of a text to more complex ones such as medical diagnoses. In this talk, I will present our approach toward a science for hybrid classification services; discussing key concepts, challenges, and architectures. I will then focus on a central aspect, that of ML calibration, and how it can be achieved with crowdsourced labels."
+    keywords: "reliable hybrid classification, machine learning, ml calibration "
+    photo: "sml_journal_club/burcu.jpg"
+    video: "https://youtu.be/C-JrtxeRqZw"
+    slides: "slide_journal_club/Talk_7_Towards_Reliable_Hybrid_Human-Machine_Classifiers.pdf"
+    affil: "University of Trento"
+
+Paolo:
+    id: lr_psmt
+    name: "Learning and reasoning with probabilistic satisfiability modulo theories"
+    presenter: "Paolo Morettin"
+    date: "April 29, 2022"
+    website: "https://paolomorettin.github.io/"
+    email: "paolo.morettin@kuleuven.be"
+    abstract: "Recently, probabilistic Satisfiability Modulo Theories has emerged as a very expressive formalism for modelling complex distributions over continuous and discrete variables. By encoding the probability density function over an SMT formula with piecewise polynomials, any joint probability distribution can be represented with arbitrary precision, granting unprecedented flexibility and enabling probabilistic reasoning with both algebraic and logical constraints. In this talk, I will introduce the core concepts, challenges and applications of probabilistic SMT in the fields of machine learning and quantitative formal verification."
+    keywords: "SMT, probabilistic reasoning, machine learning, formal verification"
+    photo: "paolo-m.jpg"
+    video: "https://www.youtube.com/watch?v=O0ocm4RDpvI"
+    slides: "slide_journal_club/Talk_6_Learning_and_reasoning_with_probabilistic_SMT.pdf"
+    affil: "KU Leuven"
+
+neuro-symbolic:
+    id: neuro-symbolic
+    name: "A Neuro-Symbolic Approach to Structured Event Recognition"
+    presenter: "Gianluca Apriceno"
+    date: "April 8, 2022"
+    email: "gianluca.apriceno@unitn.it"
+    abstract: "Events are structured entities with multiple components: the event type, the participants with their roles, the outcome, the sub-events etc. A fully end-to-end approach for event recognition from raw data sequence, therefore, should also solve a number of simpler tasks like recognizing the objects involved in the events and their roles, the outcome of the events as well as the sub-events. Ontological knowledge about event structure, specified in logic languages, could be very useful to solve the aforementioned challenges. However, the majority of successful approaches in event recognition from raw data are based on purely neural approaches (mainly recurrent neural networks), with limited, if any, support for background knowledge. These approaches typically require large training sets with detailed annotations at the different levels in which recognition can be decomposed (e.g., video annotated with object bounding boxes, object roles, events and sub-events). In this paper, we propose a neuro-symbolic approach for structured event recognition from raw data that uses “shallow” annotation on the high-level events and exploits background knowledge to propagate this supervision to simpler tasks such as object classification. We develop a prototype of the approach and compare it with a purely neural solution based on recurrent neural networks, showing the higher capability of solving both the event recognition task and the simpler task of object classification, as well as the ability to generalize to events with unseen outcomes."
+    keywords: "Event recognition, learning and reasoning, neuro-symbolic integration"
+    photo: "gianluca_apriceno_crop.jpg"
+    video: "https://www.youtube.com/watch?v=t34lPO92OLA"
+    affil: "Fondazione Bruno Kessler and University of Trento"
+    slides: "slide_journal_club/Talk_5_Neuro_Symbolic.pdf"
+
+Lotito:
+  id: lotito
+  name: "Higher-Order Networks and Motif Analysis in Hypergraphs"
+  presenter: "Quintino Francesco Lotito"
+  date: "March 25, 2022"
+  website: "https://scholar.google.it/citations?user=_r_zQAwAAAAJ&hl=en"
+  email: "quintino.lotito@unitn.it"
+  abstract: "Over the last two decades, networks have emerged as a powerful tool to analyze the complex topology of interacting systems. From social networks to the brain, several systems have been represented as a collection of nodes and links, encoding dyadic interactions among pairs of units. Yet, growing empirical evidence is now suggesting that a large number of such interactions are not limited to pairs, but rather occur in larger groups.
+In this seminar, we will discuss how more sophisticated mathematical frameworks such as the hypergraphs can enhance our modeling capabilities for systems involving higher-order interactions. We will see that dealing with such complex structures requires new algorithms to cope with more computationally difficult problems, and new tools and generalizations of classic network ideas to fully exploit the improvements in the expressive power. In the last part of the talk, we will focus on the specific problem of higher-order motif analysis. Higher-order network motifs are defined as statistically over-expressed connected subgraphs of a given number of nodes, which can be connected by higher-order interactions of arbitrary order. We will show how they are able to characterize the local structure of hypergraphs and extract fingerprints at the network microscale of higher-order real-world systems. Moreover, we will discuss the problem from an algorithmic perspective, investigating also some real-world applications. Finally, we will talk about open challenges and possible future directions."
+  keywords: "Graph Algorithms, Network Science, Machine Learning"
+  photo: "sml_journal_club/francesco_lotito.jpeg"
+  affil: "University of Trento"
+  video: "https://www.youtube.com/watch?v=b8xLcyJItWs"
+  slides: "slide_journal_club/Talk_4_journal_club_motifs.pdf"
+
+etm:
+    id: etm
+    name: "Egocentric Temporal Motifs networks"
+    presenter: "Antonio Longa"
+    date: "March 11, 2022"
+    website: "https://antoniolonga.github.io/"
+    email: "antonio.longa@unitn.it"
+    abstract: "Temporal graphs are structures which model relational data between entities that change over time. Due to the complex structure of data, mining statistically significant temporal subgraphs, also known as temporal motifs, is a challenging task. In this work, we present an efficient technique for extracting temporal motifs in temporal networks. Our method is based on the novel notion of egocentric temporal neighborhoods, namely multi-layer structures centered on an ego node. Each temporal layer of the structure consists of the first-order neighborhood of the ego node, and corresponding nodes in sequential layers are connected by an edge. The strength of this approach lies in the possibility of encoding these structures into a unique bit vector, thus bypassing the problem of graph isomorphism in searching for temporal motifs. This allows our algorithm to mine substantially larger motifs with respect to alternative approaches. Furthermore, by bringing the focus on the temporal dynamics of the interactions of a specific node, our model allows to mine temporal motifs which are visibly interpretable. Experiments on a number of complex networks of social interactions confirm the advantage of the proposed approach over alternative non-egocentric solutions. The egocentric procedure is indeed more efficient in revealing similarities and discrepancies among different social environments, independently of the different technologies used to collect data, which instead affect standard non-egocentric measures."
+    keywords: "Network motifs, Temporal networks, Graph mining, Social interaction networks, Sociopatterns"
+    photo: "longa.jpg"
+    affil: "Fondazione Bruno Kessler and University of Trento"
+    video: "https://www.youtube.com/watch?v=_VS7V42XrBk"
+    slides: "slide_journal_club/Talk_3_Egocentric_Temporal_motifs_11_03_2022.pdf"
+
+
+algorithmRecourse:
+    id: algorithmRecourse
+    name: "Algorithmic Recourse and Explainable Counterfactual Interventions"
+    presenter: "Giovanni De Toni"
+    date: "February 25, 2022"
+    website: "https://detoni.me/"
+    email: "giovanni.detoni@unitn.it"
+    abstract: "'Algorithmic recourse' is defined as the ability to provide actionable feedback to unfairly treated users to overturn the decision made by automated decision systems. This feature has become critical for modern machine learning systems that we use to make decisions in several areas of our lives. Counterfactual interventions are a powerful tool to suggest to affected users which actions they have to perform to change the outcome of a black-box model. They give us the intuition of what the state of the world would have been if we had behaved differently. In this talk, we will provide an overview of modern techniques to ensure algorithmic recourse through the generation of explainable counterfactual interventions."
+    keywords: "Algorithmic Recourse, Counterfactual Explanations and Interventions"
+    photo: "giovanni_crop.jpg"
+    affil: "Fondazione Bruno Kessler and University of Trento"
+    video: "https://www.youtube.com/watch?v=ITo40HZDrYw"
+    slides: "slide_journal_club/Talk_2_Algorithmic_Recourse_and_Explainable_Counterfactual_Interventions_Handsout_25-02-2022.pdf"
+
+casual:
+    id: causal
+    name: "Causal Representation Learning"
+    presenter: "Emanuele Marconato"
+    date: "February 11, 2022"
+    email: "emanuele.marconato@unitn.it"
+    abstract: "The two fields of Causality and Machine Learning have a long history and until now they developed separately. In this talk, I will discuss past and recent progress in both fields and envisage a possible connection, precisely the new research direction of Causal Representation Learning. I will focus on the conceptual development of Representation Learning, i.e. learning high-level variables from low-level observations, and motivate that future AI challenges can be addressed leveraging Causality, in particular for transfer learning and for generalizing out of distribution. "
+    keywords: "representation, causality, learning, disentanglement"
+    photo: "marconato.png"
+    affil: "University of Pisa and University of Trento"
+    video: "https://www.youtube.com/watch?v=p33bxQ5PskM"
+    slides: "slide_journal_club/Talk_1_Towards_Causal_Representation_Learning.pdf"
